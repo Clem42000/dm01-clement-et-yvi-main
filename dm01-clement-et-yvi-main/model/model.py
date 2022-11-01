@@ -10,7 +10,7 @@ class Model(IModel):
         self.__nombreessaie=0
         self.__nombrerandom = 0
 
-    def start(self):
+    def getnumber(self):
         self.__nombrerandom = random.randint(1, 100)
         return self.__nombrerandom
 

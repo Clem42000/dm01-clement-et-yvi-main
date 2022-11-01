@@ -2,5 +2,5 @@ from contract.iview import IView
 
 
 class View(IView):
-    def display(self, message) -> None:
+    def display(self, message: str):
         print(message)
