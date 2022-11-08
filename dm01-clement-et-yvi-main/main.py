@@ -4,3 +4,4 @@ from view.view import View
 
 controller = Controller(View(), Model())
 controller.start()
+

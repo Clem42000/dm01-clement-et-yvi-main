@@ -14,5 +14,5 @@ class IController(ABC):
         ...
 
     @abstractmethod
-    def start(self):
+    def start(self) ->None:
         ...
